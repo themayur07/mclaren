@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+body {
+    font-family: 'Lato', sans-serif;
+}
+.container1 {
+    display: flex;
+}
+.container2 {
+    display: flex;
+}
+.box1 {
+    margin-left: 50px;
+    margin-top: -30px;
+}
+.box2 {
+    margin-left: 400px;
+    margin-top: 15px;
+    width: 550px;
+}
+.nav {
+    display: flex;
+}
+.ml {
+    margin-left: 50px;
+}
+.box3 {
+    width: 50%;
+    height: 200px;
+    margin-top: 140px;
+}
+.box4 {
+    margin-left: 20px;
+    height: 400px;
+}
+.signup {
+    background-color: rgb(255, 97, 39);
+    border-radius: 20px;
+    color: black;
+    width: 100px;
+    height: 35px;
+    margin-left: 50px;
+    margin-top: -8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.signup:hover{
+    color: grey;
+    background-color: white;
+} 
+h1,h2,p {
+    padding-left: 70px;
+    padding-right: 80px;
+}
+h1{
+    color: rgb(255, 94, 35);
+    font-weight: 900;
+}
